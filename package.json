@@ -1,0 +1,11 @@
+{
+  "name": "askdora",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AskDora - Doraemon chatbot (React + Express + MongoDB)",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "npm install --prefix CB_FrontEnd && npm run build --prefix CB_FrontEnd && npm install --omit=dev --prefix CB_BackEnd",
+    "start": "node CB_BackEnd/app.js"
+  }
+}
